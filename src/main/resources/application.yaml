@@ -1,0 +1,19 @@
+spring:
+  main:
+    web-application-type: none
+
+sonarqube:
+  token: replaceme
+  first-instance:
+    label: 8.9
+    host-url: http://localhost:9000
+    projects-api-page-size: 200
+  second-instance:
+    label: 9.9
+    host-url: http://localhost:9001
+    projects-api-page-size: 200
+
+report:
+  file-name: sonarqube-diff-report.xlsx
+  label-trend: Trend
+  label-project: Project name (SonarQube project-key)
